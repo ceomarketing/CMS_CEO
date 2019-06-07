@@ -1,0 +1,46 @@
+{
+  "name": "keystonecmsss",
+  "version": "1.0.0",
+  "description": "Keystone JS CMS with React and Redux",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"sudo mongod\" \"webpack --config webpack.config.js\" \"node index.js\"",
+    "compile": "webpack --config webpack.config.js",
+    "test": "test"
+  },
+  "author": "Velizar Mihaylov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "concurrently": "^4.1.0",
+    "eslint": "^4.19.0",
+    "eslint-config-keystone": "^3.0.0",
+    "eslint-config-keystone-react": "^1.0.0",
+    "eslint-plugin-react": "^7.7.0",
+    "formik": "^1.5.7",
+    "keystone": "^4.0.0-beta.8",
+    "lodash": "^4.17.5",
+    "react": "^16.2.0",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^5.0.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  }
+}
