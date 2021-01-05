@@ -11,7 +11,7 @@
   "author": "Velizar Mihaylov",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "concurrently": "^4.1.0",
     "eslint": "^4.19.0",
